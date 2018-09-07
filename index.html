@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+	<!-- PHP Script from Elizabeth Castro -->
+	<head>
+		<meta charset="utf-8"> 
+		<title>Processing Form Data</title>
+        <style type="text/css">	<!-- direkte Einbettung von CSS -->
+            code {color:#F00C4D; font-weight:bold; font-size:1.2em}
+            i {color: #6D0CF0}
+            th, td {padding:.1em; border:1px solid blue; text-align:left}
+            p {font-size:.9em; font-style:italic}
+        </style>
+	</head>
+	<body>
+		<p>This is a very simple PHP script that outputs the name of each bit of information (
+            that corresponds to the <code>name</code> attribute for that field) along with the
+            value that was sent with it right in the browser window.
+        </p>
+        <p>In a more useful script, you might store this information in a MySQL database, or send
+            it to your email address.
+        </p>
+        
+        <form action="claudia.php" method="post">
+			<input type="text" size="17" name="Inhalt">
+			<input type="submit" value="Post">
+		</form>
+		
+	</body>
+</html>
